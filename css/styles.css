@@ -806,26 +806,20 @@ img {
 }
 
 .fiverr-gig__image {
-    height: 180px;
+    height: 200px;
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     overflow: hidden;
 }
 
-.fiverr-gig__image--kawaii {
-    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #ffdde1 100%);
+.fiverr-gig__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
 }
 
-.fiverr-gig__image--photo {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-}
-
-.fiverr-gig__overlay {
-    font-size: 4rem;
-    opacity: 0.9;
-    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
+.fiverr-gig:hover .fiverr-gig__image img {
+    transform: scale(1.08);
 }
 
 .fiverr-gig__badge {
