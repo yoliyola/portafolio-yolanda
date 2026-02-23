@@ -15,6 +15,31 @@
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
+/* ===== TOPBAR ===== */
+.topbar {
+    background: #0a0a14;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(233, 69, 96, 0.2);
+}
+
+.topbar__inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.topbar__item {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    transition: color var(--transition);
+}
+
+.topbar__item:hover {
+    color: var(--accent-primary);
+}
+
 /* ===== RESET ===== */
 *,
 *::before,
