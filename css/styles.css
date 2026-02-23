@@ -1410,7 +1410,7 @@ img {
     .hero__container { gap: 1.2rem; }
     .hero__name { font-size: 1.8rem; margin-bottom: 0.2rem; }
     .hero__greeting { font-size: 0.9rem; margin-bottom: 0.3rem; }
-    .hero__title { font-size: 1rem; height: auto; line-height: 1.4; white-space: normal; margin-bottom: 0.8rem; }
+    .hero__title { font-size: 1rem; height: 1.5rem; line-height: 1.5rem; white-space: nowrap; margin-bottom: 0.8rem; }
     .hero__description { font-size: 0.88rem; margin-bottom: 1rem; }
     .hero__buttons { gap: 0.5rem; }
     .hero__buttons .btn { padding: 0.6rem 1.2rem; font-size: 0.8rem; }
@@ -1437,7 +1437,7 @@ img {
     .about__info-label { font-size: 0.65rem; }
 
     /* Skills - grid 2x2 compacto */
-    .skills__grid { gap: 0.8rem; margin-top: 1.2rem; }
+    .skills__grid { grid-template-columns: repeat(2, 1fr); gap: 0.8rem; margin-top: 1.2rem; }
     .skill-card { padding: 1rem 0.8rem; }
     .skill-card__icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
     .skill-card__title { font-size: 0.85rem; margin-bottom: 0.5rem; }
@@ -1526,8 +1526,11 @@ img {
     .section { padding: 1.5rem 0; }
     .section__title { font-size: 1.2rem; }
 
-    .skills__grid { grid-template-columns: 1fr; gap: 0.5rem; }
-    .skill-card { padding: 0.8rem; }
+    .skills__grid { grid-template-columns: repeat(2, 1fr); gap: 0.5rem; }
+    .skill-card { padding: 0.7rem 0.5rem; }
+    .skill-card__icon { font-size: 1.2rem; margin-bottom: 0.3rem; }
+    .skill-card__title { font-size: 0.75rem; }
+    .skill-card__list li { font-size: 0.68rem; }
 
     .about__image img { max-width: 140px; }
     .about__content p { font-size: 0.78rem; }
