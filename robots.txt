@@ -1,0 +1,11 @@
+# robots.txt - Yolanda Aparicio Gimenez Portafolio
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://yoliyola.github.io/portafolio-yolanda/sitemap.xml
+
+# Bloquear archivos no necesarios para indexación
+Disallow: /node_modules/
+Disallow: /package.json
+Disallow: /package-lock.json
